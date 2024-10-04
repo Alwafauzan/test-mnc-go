@@ -1,0 +1,7 @@
+GET http://localhost:8080/customers
+
+###
+GET http://localhost:8080/merchants
+
+###
+GET http://localhost:8080/log

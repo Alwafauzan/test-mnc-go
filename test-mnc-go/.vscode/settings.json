@@ -1,0 +1,35 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5433,
+      "driver": "PostgreSQL",
+      "name": "coba_jdbc",
+      "database": "coba_jdbc",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5433,
+      "driver": "PostgreSQL",
+      "name": "test_adins",
+      "database": "test_adins",
+      "username": "postgres"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "test_mnc_go",
+      "database": "test_mnc_go",
+      "username": "root"
+    }
+  ]
+}
